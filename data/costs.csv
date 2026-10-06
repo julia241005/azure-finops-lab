@@ -1,0 +1,7 @@
+﻿resource,cost,environment,service,cpu_usage
+VM-DEV-01,800,Dev,Virtual Machine,8
+VM-PROD-01,2500,Production,Virtual Machine,65
+VM-TEST-01,600,Test,Virtual Machine,2
+DB-PROD-01,3000,Production,Database,70
+STORAGE-01,900,Production,Storage,45
+NETWORK-01,1100,Production,Network,50

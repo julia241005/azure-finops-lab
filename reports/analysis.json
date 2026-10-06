@@ -1,0 +1,40 @@
+{
+    "summary": {
+        "total_monthly_cost": 8900.0,
+        "estimated_monthly_saving": 1400.0,
+        "estimated_annual_saving": 16800.0,
+        "resources_analyzed": 6,
+        "recommendations_found": 2
+    },
+    "cost_by_service": {
+        "Virtual Machine": 3900.0,
+        "Database": 3000.0,
+        "Storage": 900.0,
+        "Network": 1100.0
+    },
+    "cost_by_environment": {
+        "Dev": 800.0,
+        "Production": 7500.0,
+        "Test": 600.0
+    },
+    "recommendations": [
+        {
+            "resource": "VM-DEV-01",
+            "environment": "Dev",
+            "current_cost": 800.0,
+            "cpu_usage": 8.0,
+            "classification": "POSSIBLE_IDLE_RESOURCE",
+            "recommendation": "Avaliar desligamento, remoção ou agendamento.",
+            "estimated_monthly_saving": 800.0
+        },
+        {
+            "resource": "VM-TEST-01",
+            "environment": "Test",
+            "current_cost": 600.0,
+            "cpu_usage": 2.0,
+            "classification": "POSSIBLE_IDLE_RESOURCE",
+            "recommendation": "Avaliar desligamento, remoção ou agendamento.",
+            "estimated_monthly_saving": 600.0
+        }
+    ]
+}
